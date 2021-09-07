@@ -1,7 +1,12 @@
 /// <reference types="cypress" />
 
+const uuid = () => Cypress._.random(0, 50)
+const id = uuid()
+const testname = `testname${id}`;
+
 
 context('Teste Celcoin - QA', () =>{
+
 
     describe('CT01 - Criando uma conta de usuário', ()=>{
          
@@ -12,8 +17,8 @@ context('Teste Celcoin - QA', () =>{
          it('Acessar aba criar conta',()=>{
              cy.get('.login').click()
              cy.get('#email_create')
-             .type(Cypress.env('email'))
-             .should('have.value',Cypress.env('email'))
+             .type(id + Cypress.env('email'))
+             .should('have.value',id+Cypress.env('email'))
              cy.get('#SubmitCreate > span').click()
          })
  

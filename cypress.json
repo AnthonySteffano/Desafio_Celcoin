@@ -2,7 +2,7 @@
 
     "env":{
         "url": "http://automationpractice.com/index.php",
-        "email": "anthony5@teste.com.br",
+        "email": "anthony@teste.com.br",
         "email_2":"anthonysteffano@hotmail.com",
         "senha": "12345"
     }

@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 Esse projeto é um desafio para a empresa Celcoin para medir o nível de conhecimento na área de implementação de testes automatizados utilizando o Cypress.
-Foi proposto acessar o site [YourLogo](http://automationpractice.com/index.php) um site ecommerce para realizar os 3 cenários de testes propostos:
+Foi proposto acessar o site [YourLogo](http://automationpractice.com/index.php) um site ecommerce para realizar os 4 cenários de testes propostos
 - Automatizar o processo de criar conta de um novo usuário.
 - Realizar o login com uma conta criada.
 - Selecionar um pedido e adicionar ao carrinho.

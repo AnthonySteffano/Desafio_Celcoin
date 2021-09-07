@@ -27,7 +27,7 @@ Foi proposto acessar o site [YourLogo](http://automationpractice.com/index.php) 
 
 ## Rodando a interface do ambiente Cypress
 - Usando a interface cypress
-  Depois de realizar a instalações das dependências, poderá utilizar o seguinte comando
+  apois realizar a instalações das dependências, poderá utilizar o seguinte comando
   ```bash
   ./node_modules/.bin/cypress open
   ``` 
@@ -42,7 +42,7 @@ Foi proposto acessar o site [YourLogo](http://automationpractice.com/index.php) 
   ```bash
    npx cypress run
    ```
-   Irá aparecer no terminal todos os passos que o teste executou, lembre-se que será exportado um vídeo do teste sendo realizado, caso não tenha interesse dessas informações:
+   Irá aparecer no terminal todos os passos que o teste executou, lembre-se que será exportado um vídeo do teste sendo realizado, caso não tenha interesse do vídeo siga esse passo:
    ```bash
    npx cypress run --config video=false
    ```
